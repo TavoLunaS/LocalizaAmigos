@@ -6,8 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <!-- Este es un comentario y acontinuacion las etiquetas de mapa-->
-
-
-
-
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapView"
+        mapbox:mapbox_cameraTargetLat="19.412497"
+        mapbox:mapbox_cameraTargetLng="-99.145657"
+        mapbox:_cameraZoom="16"/>
 </FrameLayout>
